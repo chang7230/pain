@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+    <label id="logoutdisplay1">X</label>
+    <div>
+    <label id="logoutdisplay2">Y</label>
+</div>
+<div>
+<button id = "signout" type="button" onclick="firstSignout()">
+    Sign out</button>
+</div>
+
+    <div>
+        <button id = "signout2" type="button" onclick="secondSignout()">
+        Sign out</button>
+    </div>
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyC_rQnyz52Bv_cQ7aLtaidu1IdipOKag6o",
+        authDomain: "dvedfq.firebaseapp.com",
+        databaseURL: "https://dvedfq.firebaseio.com",
+        projectId: "dvedfq",
+        storageBucket: "dvedfq.appspot.com",
+        messagingSenderId: "247235117033",
+        appId: "1:247235117033:web:e3d1b0d79ed7e90b"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+</script>
+
+
+<script src = "index.js"> </script>
+</body>
+</html>

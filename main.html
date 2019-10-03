@@ -1,0 +1,85 @@
+<!-- https://console.firebase.google.com/project/dvedfq/database/dvedfq/data -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Firebase</title>
+
+</head>
+<body>
+
+<h1>Firebase thingy</h1>
+<!--
+<textarea id="mainText" placeholder="Enter Text Here"></textarea>
+<textarea  id="user" placeholder="user"></textarea>
+<textarea id="password" placeholder="password"></textarea>
+
+
+
+-->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password -->
+<div>
+
+</div>
+<div>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="electronicmail">
+</div>
+
+<div>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password">
+</div>
+
+<div>
+    <button id = "login" type="button" onclick="signin()">
+        Log in</button>
+
+    <button id = "create" type="button" onclick="create()">
+        Create account</button>
+
+    <button id = "signout" type="button" onclick="signout()">
+        Sign out</button>
+</div>
+
+<div>
+    <button id = "google" type="button" onclick="googledirect()">
+        AAAAAAAAAAAAAAAAAA</button>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyC_rQnyz52Bv_cQ7aLtaidu1IdipOKag6o",
+        authDomain: "dvedfq.firebaseapp.com",
+        databaseURL: "https://dvedfq.firebaseio.com",
+        projectId: "dvedfq",
+        storageBucket: "dvedfq.appspot.com",
+        messagingSenderId: "247235117033",
+        appId: "1:247235117033:web:e3d1b0d79ed7e90b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<script src = "index.js"> </script>
+
+</body>
+</html>
